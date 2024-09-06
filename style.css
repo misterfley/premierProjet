@@ -1,7 +1,7 @@
 *{
     background-color: rgb(175, 224, 218);}
 td,th{
-border: 5px solid rgb(226, 125, 8);
+border: 2px solid rgb(226, 125, 8);
 padding: 10px;
 min-width: 60px;
 text-align: center;
@@ -9,4 +9,8 @@ text-align: center;
 /*  commentaire dans le css : ctrl +k + c */
 table{
     border-collapse: collapse;
+}
+img{
+    height: 90px;
+    width: 90px;
 }
