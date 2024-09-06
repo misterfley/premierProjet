@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(175, 224, 218);}
+td,th{
+border: 5px solid rgb(226, 125, 8);
+padding: 10px;
+min-width: 60px;
+text-align: center;
+}
+/*  commentaire dans le css : ctrl +k + c */
+table{
+    border-collapse: collapse;
+}

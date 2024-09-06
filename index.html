@@ -7,6 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta description ="mon site (pas mal pour référencer)">   
+       <link rel="stylesheet" href="style.css">
     <title>bah titre du coup</title>
     </head>
  <body>
@@ -67,7 +68,8 @@
      </ul>
 
      <ul>
-        <li>
+      git config --global user.name "Votre Nom"
+      <li>
             <ul>
                <li>Se brosser les dents</li> 
                <li>Changer ses lentilles</li>
@@ -76,5 +78,187 @@
         <li>Dormir , encore</li>
      </ul>
 
+     <!-- LES TABLEAUX -->
+
+     <table>
+      <thead>
+         <tr>
+            <th>prenom</th>
+            <th>nom</th>
+            <th>age</th>
+            <th>mail</th>
+         </tr>
+      </thead>
+      <tbody>
+         <!-- Dans chaque <tr>, il y aura les infos d'une personne -->
+         <tr>
+            <td>james</td>
+         <td>bond</td>
+         <td>007</td>
+         <td>ilovegirls@gmail.com</td>
+         </tr>
+         <tr>
+            <td>jean</td>
+            <td>bond</td>
+            <td>50</td>
+            <td>salami@gmail.com</td>
+         </tr>
+         <tr>
+            <td>carl</td>
+            <td>roussel</td>
+            <td>27</td>
+            <td>tourneegenerale@gmail.com</td>
+         </tr>
+      </tbody>
+     </table>
+<br><br><br><br><br>
+
+<table>
+   <thead>
+      <tr>
+         <th>Nom</th>
+         <th>Âge</th>
+         <th>Pays</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Carmen</td>
+         <td>33 ans</td>
+         <td>Espagne</td>
+      </tr>
+      <tr>
+         <td>Michelle</td>
+         <td> 26 ans</td>
+         <td> Etats-Unis</td>
+      </tr>
+   </tbody>
+</table>
+<br><br>
+<!-- Fusion de cases -->
+     
+<table>
+   <tr>
+      <th>Nom</th>
+      <td>Gigi</td>
+   </tr>
+   <tr>
+      <th rowspan="2">tel</th>
+      <td>0452689854</td>
+   </tr>
+   <tr>
+      
+      <td>0625365874</td>
+   </tr>
+</table>
+<br><br>
+<table>
+   <tr>
+      <th colspan="4">titre de film</th> 
+   </tr>
+   <tr>
+      <td>The Usual suspects</td>
+      <td>Se7en</td>
+      <td>Identity</td>
+      <td>Le Prestige</td>
+   </tr>
+</table>
+
+<br><br>
+
+<table>
+  <thead>
+  <tr>
+   <th colspan="3">Enseignement Supérieur</th>
+  
+   <th>Spécialités</th>
+  </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td rowspan="4">Mathématiques</td>
+      <td rowspan="4">Sc. Physiques</td>
+      <td rowspan="4">S.V.T</td>
+      <td>I.S.N.</td>
+   </tr>
+   <tr>
+      <td>Maths</td>
+   
+   </tr>
+   <tr>
+      <td>SC.Physiques</td>
+      
+   </tr>
+   <tr>
+      <td>SVT</td>
+     
+   </tr>
+  </tbody>
+</table>
+<br><br>
+
+<table>
+  
+   <thead>
+      <h3>titre du tableau</h3>
+      <tr>
+        <th rowspan="2">      </th>
+        <th colspan="2">moyenne</th>
+        
+        <th rowspan="2">yeux rouges</th>
+      </tr>
+      <tr>
+         
+         <th>hauteur</th>
+         <th>poids</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <th>mâles</th>
+         <td>1.9</td>
+         <td>0.003</td>
+         <td>40%</td>
+      </tr>
+      <tr>
+         <th>Femelles</th>
+         <td>1.7</td>
+         <td>0.002</td>
+         <td>43%</td>
+      </tr>
+   </tbody>
+</table>
+<br><br><br>
+
+<table>
+   <tbody>
+      <tr>
+         <h3>fusions en masse</h3>
+         <td rowspan="3">1</td>
+         <td>2</td>
+         <td colspan="2">3</td>
+         
+      </tr>
+      <tr>
+         
+         <td colspan="3">4</td>
+         
+      </tr>
+      <tr>
+      
+         <td>5</td>
+         <td>6</td>
+         <td>7</td>
+      </tr>
+      <tr>
+         <td colspan="3" rowspan="2">8</td>
+         <td>9</td>
+      </tr>
+      <tr>
+
+         <td>10</td>
+      </tr>
+   </tbody>
+</table>
  </body>
 </html>
