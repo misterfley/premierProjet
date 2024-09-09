@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon exo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Votre Identité</legend>
+     <ol>
+        <li><input type="text" name="nom" placeholder="Prénom et Nom">
+        <label for="nom">  Nom</label>
+    </li>
+       <li><input type="text" name="mail" placeholder="exemple@domaine.com">
+        <label for="mail">  Email</label>
+    </li> 
+     <li> 
+         <label for="number">Téléphone</label>
+        <input type="text" name="number" min="10" max="10" placeholder="par exemple +330600000000">
+    </li> 
+     </ol>
+    </fieldset>
+    <fieldset>
+       
+       <legend>Adresse de livraison</legend>
+       <ol>
+       <li>
+        <label for="Adresse">Adresse</label>
+    <textarea name="Adresse"  cols="30" rows="5" ></textarea>
+</li> 
+<li>
+    <input type="text" name="cp" >
+    <label for="cp">Code Postal</label>
+</li>
+<li>
+    <input type="text" name="pays" >
+    <label for="pays">Pays</label>
+</li>
+    </ol>
+    </fieldset>
+    <fieldset>
+    <fieldset>
+        <legend>Informations cb</legend>
+        <ol> 
+            <fieldset>
+                <li>
+                <legend>Type de carte bancaire</legend>
+                <ol>
+                    <li>
+        <input type="radio" name="radio" value="visa" >
+        <label for="radio">VISA</label> 
+    </li>
+    <li>
+        <input type="radio" name="radio" >
+        <label for="radio">AmEX</label value="amex" > 
+        </li>
+    <li>
+        <input type="radio" name="radio" >
+        <label for="radio">Mastercard</label value="mastercard" >
+        </li>
+        </ol>
+    </fieldset>
+</li>
+<li>
+    <label for="number">Numéro de carte</label>
+    <input type="text" name="number" min="10" max="16" >
+</li>
+<li>
+    <label for="number">Code de sécurité</label>
+    <input type="text" name="number" min="10" max="16" >
+</li>
+    <li>
+        <label for="nompro">  Nom du porteur</label>
+        <input type="text" name="nompro" >
+        
+    </li>
+</ol>
+</fieldset>
+<input type="submit" value="J'achète!!">
+</body>
+</html>

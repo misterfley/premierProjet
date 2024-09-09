@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(204, 229, 230);
+}
+h1{
+    color: red;
+}
+h2{
+    color: #60f326;
+    /* Ici on souligne */
+    text-decoration: underline;
+    /*Ici on souligne avec des vaguelettes */
+    text-decoration-style: wavy;
+}
+.mauve{
+    color: #ad0dc5;
+}
+.gros{
+    font-size: 3em;
+border: 2px solid salmon;
+padding: 20px;
+margin: 40px;
+text-align: center;
+}
+
+label, input{
+    display: block;
+}
+
+/* pour centrer les labels et les inputs dans le formulaire */
+.form label, .form input{
+width: 30%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.form input[type="submit"]{
+    margin-top: 1em;
+}
+
+#jaune{
+    color: #d3a40a;
+}
+
+/* Les Priorités: 
+nom de l'élément: exemple li,input,label
+< les classes : .mauve, .gros
+< les id : #jaune
+< la propriété style dans la balise html
+*/
+
+.rond{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

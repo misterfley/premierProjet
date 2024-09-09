@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- LES INPUT -->
+
+    <!-- Les Input Text permettent d'écrire du texte court -->
+     <!-- Pour l'accessibilité, la propriété "for" du label 
+      doit TOUJOURS être liée avec son Input dans la propriété "name" -->
+
+      <fieldset>
+        <legend>Mes 3 premiers inputs</legend>
+        <label for="1er">Mon nom</label>
+        <input type="text" name="1er" placeholder="ecrivez du texte" >
+    <!-- "step" permet l'incrémentation comme ci dessous de 5 en 5 -->
+        <label for="number">mon dossard</label>
+        <input type="number" name="number" min="5" max="100" step="5" placeholder="numéro ">
+    
+        <label for="secret">mon mot de passe</label>
+        <input type="password" name="secret" placeholder="mot de passe" minlength="6">
+      </fieldset>
+   
+
+    <label for="date">date d'inscription</label>
+    <input type="date" name="date" >   
+    
+    <label for="range">satisfaction</label>
+    <input type="range" name="range" >
+
+    <!-- Les couleurs retournées avec cet input sont en hexadécimal -->
+    <label for="color">couleur préférée</label>
+    <input type="color" name="color" >
+
+    <input type="checkbox" name="check" >
+    <label for="check">3 roues</label>
+
+    <!-- Permet u seul choix mais le "name" doit être le même -->
+    <div>
+        <input type="radio" name="radio" value="homme" >
+        <label for="radio">homme</label> 
+        <input type="radio" name="radio" >
+        <label for="radio">femme</label value="femme" > 
+        <input type="radio" name="radio" >
+        <label for="radio">autre</label value="autre" >      
+        <input type="radio" name="radio" >
+        <label for="radio">c'est compliqué</label value="autre" >          
+    </div>
+
+    <label for="mylife">raconte ta life</label>
+    <textarea name="mylife"  cols="30" rows="20" placeholder="raconte ta vie fabuleuse"></textarea>
+
+    <label for="select">MES VOITURES</label>
+    <select name="select">
+        <option value="bmw"></option>
+        <option value="ferrari">ferrari</option>
+        <option value="mclaren">mclaren</option>
+        <option value="lincoln">lincoln</option>
+        <option value="hummer">hummer</option>
+    </select>
+
+    <!-- Permet la validation du formulaire -->
+    <input type="submit" value="valider">
+
+</body>
+</html>

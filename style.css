@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(175, 224, 218);}
+    background-color: rgb(162, 226, 217);}
 td,th{
 border: 2px solid rgb(226, 125, 8);
 padding: 10px;
@@ -13,4 +13,22 @@ table{
 img{
     height: 90px;
     width: 90px;
+}
+label,input{
+    display: block;
+}
+label {
+    margin-top: 15px;
+}
+/* voici un exemple de sélecteur */
+input[type="checkbox"],
+input[type="checkbox"] + label,
+input[type="radio"],
+input[type="radio"] + label {
+    display: inline;
+    margin-top: 15px;
+}
+/* on cible les labels et les inputs dans les li  */
+li input,li label {
+    display: inline;
 }
