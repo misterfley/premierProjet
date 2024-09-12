@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--  faire un exo où  quand on appelle un chiffre, ça affiche x foid 1 = y , x fois 2 = z etc -->
+    <input type="number" id="num" />
+    <button id="btn">valider</button>
+
+<button id="bouton"> Pile ou face</button>
+
+    <script>
+      const number = document.getElementById("num");
+      const btn = document.getElementById("btn");
+      const bouton = document.getElementById("bouton");
+      console.log(btn);
+
+      btn.addEventListener("click", function () {
+        for (let i = 0; i <= 10; i++) {
+          console.log(
+            `${number.value} fois ${i} est égal à ${number.value * i} `
+          );
+        }
+      });
+
+      /*
+      // symbole de verification
+
+      on vérifie l'égalité  sans la verif de type de a à b
+      // a == b
+
+      // on vérifie que a est supérieur à b
+      a  > b
+
+      on vérifie que a est supérieur ou égal à b
+      a >= b
+
+      inférieur
+      a<b
+
+      ou égal
+
+      a<= b
+
+      On vérifie que a n'est pas égal à b
+
+      a != b
+      on vérifie que a === b ( lors de cette verif , on vérifie aussi le type)
+
+ // pile ou face 
+ //on ajoute un bouton et ça affiche aléatoirement  pile ou face .
+
+*/
+bouton.addEventListener( "click", function(){
+    let rand = Math.random()> 0.5 ? console.log("pile à l'heure") : console.log("face contre terre");
+});
+
+    </script>
+  </body>
+</html>
